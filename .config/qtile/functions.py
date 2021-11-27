@@ -4,8 +4,6 @@ from libqtile.command import lazy
 
 class Functions:
 
-    ##### MOVE WINDOW IN GROUPS #####
-
     @staticmethod
     def window_to_prev_group():
         @lazy.function

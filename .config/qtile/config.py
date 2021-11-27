@@ -60,7 +60,6 @@ if __name__ in ["config", "__main__"]:
     keys = obj_keybindings.init_keybindings()
     mouse = obj_mouse.init_mouse()
 
-print(groups)
 for i, group in enumerate(groups, 1):
     name = group.name
     keys.append(Key([mod], str(i), lazy.group[name].toscreen(), desc=f"Switch to group {name}"))
