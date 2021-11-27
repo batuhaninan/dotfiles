@@ -79,10 +79,10 @@ setattr(get_next_color, "i", START_COLOR_INDEX)
 def get_matching_foreground(bg):
     
     if bg in light_colors:
-        return random.choice(dark_colors)
+        return colors["black"]
     
-    if bg in light_colors:
-        return random.choice(light_colors)
+    if bg in dark_colors:
+        return colors["white"] 
     
     return colors["white"]
     
