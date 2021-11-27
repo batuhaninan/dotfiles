@@ -43,9 +43,11 @@ class MyKeyBindings:
             Key([mod], "Return", lazy.spawn(self.terminal), desc="Launch terminal"),
 
             Key([mod], "z", lazy.spawn("nautilus --browser"), desc="Open window manager"),
+            Key([mod], "d", lazy.spawn("dmenu_run -p 'Run: '"), desc="Open window manager"),
             
             Key([mod], tab, lazy.next_layout(), desc="Toggle between layouts"),
             Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
+
 
             Key([mod, ctrl], "r", lazy.restart(), desc="Restart Qtile"),
             Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),

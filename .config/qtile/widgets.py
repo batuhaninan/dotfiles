@@ -72,21 +72,6 @@ class MyWidgets:
             WidgetCreator.createWidget(
                 widget.Sep(
                     linewidth=0,
-                    padding=6,
-                    foreground=colors["fg"],
-                ), colors["bg"]
-            ),
-            WidgetCreator.createWidget(
-                widget.Image(
-                    foreground=colors["fg"],
-                    filename="~/.config/qtile/icons/terminal-iconx14.png",
-                    mouse_callbacks={
-                        'Button1': lambda : qtile.cmd_spawn('dmenu_run -p "Run: "')}
-                ), colors["bg"]
-            ),
-            WidgetCreator.createWidget(
-                widget.Sep(
-                    linewidth=0,
                     padding=10,
                     foreground=colors["fg"],
                 ), colors["bg"]
@@ -108,6 +93,13 @@ class MyWidgets:
                     foreground=colors["white"],
                     fontsize=16,
                     disable_drag=True
+                ), colors["bg"]
+            ),
+            WidgetCreator.createWidget(
+                widget.Sep(
+                    linewidth=0,
+                    padding=10,
+                    foreground=colors["fg"],
                 ), colors["bg"]
             ),
             WidgetCreator.createWidget(
