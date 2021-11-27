@@ -1,0 +1,51 @@
+[global_config]
+  title_hide_sizetext = True
+  inactive_color_offset = 0.8055555555555556
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  suppress_multiple_term_dialog = True
+  title_use_system_font = False
+  title_font = Roboto Mono Medium for Powerline Medium 9
+  putty_paste_style = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.6
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Roboto Mono Medium for Powerline Medium 10
+    show_titlebar = False
+    use_system_font = False
+    copy_on_selection = True
+  [[Arthur]]
+    background_color = "#1c1c1c"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#e2bbef"
+    font = Roboto Mono Medium for Powerline Medium 10
+    foreground_color = "#ddeedd"
+    show_titlebar = False
+    palette = "#3d352a:#cd5c5c:#86af80:#e8ae5b:#6495ed:#deb887:#b0c4de:#bbaa99:#554444:#cc5533:#88aa22:#ffa75d:#87ceeb:#996600:#b0c4de:#ddccbb"
+    use_system_font = False
+    copy_on_selection = True
+  [[Dracula]]
+    background_color = "#1e1f29"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Roboto Mono Medium for Powerline Medium 10
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 1920, 1080
+      position = 5:25
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
