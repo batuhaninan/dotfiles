@@ -7,7 +7,7 @@ OTHER = [([mod, alt], "a", "pavucontrol"),
 
     ([alt], space, "/home/batuhaninan/.config/rofi/launchers/slate/launcher.sh"),
     
-    ([alt], "Print", "xfce4-screenshooter"),
+    ([alt], "Print", "spectacle"),
     
     ([], "XF86AudioLowerVolume", "pactl set-sink-volume @DEFAULT_SINK@ -10%"),
     ([], "XF86AudioRaiseVolume", "pactl set-sink-volume @DEFAULT_SINK@ +10%"),

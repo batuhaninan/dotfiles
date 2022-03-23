@@ -2,7 +2,6 @@ from libqtile import layout
 from libqtile.config import Match
 
 
-
 floating_layout = layout.Floating(float_rules=[
     # Run the utility of `xprop` to see the wm class and name of an X client.
     *layout.Floating.default_float_rules,
@@ -15,14 +14,15 @@ floating_layout = layout.Floating(float_rules=[
 ])
 
 
-
 layouts = [
-    layout.MonadTall(
+    layout.Columns(
         border_focus=["#88c0d0", "#88c0d0"],
         border_normal=["#282828", "#282828"],
         grow_amount=20,
         margin=10
     ),
-    layout.Max(),
+    layout.Max(
+        margin=10
+    ),
 ]
 

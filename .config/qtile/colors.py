@@ -1,10 +1,7 @@
-import random
-
-
 _colors = {
-    'bg':           '#282828',
+    'bg':           '#1B2021',
     'bg-inactive':  '#525252',
-    'fg':           '#88C0D0',
+    'fg':           '#CFCCD6',
     
     # Widget colors
     'turquoise':    '#45B8AC',

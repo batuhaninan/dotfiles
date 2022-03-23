@@ -13,7 +13,7 @@ group_icons = ["1 ",
 
 
     
-primary = "max"
+primary = "monadtall"
 secondary = "max"
 
 class CreateGroups:
